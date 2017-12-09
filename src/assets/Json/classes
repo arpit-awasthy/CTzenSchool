@@ -1,0 +1,64 @@
+[
+  {
+    "ClassRoom1": {
+      "Student1": [
+        { 
+          "Name": "Arpit Awasthi",
+          "Gender": "Male",
+          "Age": "27"
+        }
+      ],
+      "Student2": [
+        { 
+          "Name": "pankaj Chaudhari",
+          "Gender": "Male",
+          "Age": "30"
+        }
+      ],
+      "Student3": [
+        { 
+          "Name": "Ankit Sahu",
+          "Gender": "Male",
+          "Age": "25"
+        }
+      ],
+      "Student4": [
+        { 
+          "Name": "Neeraj sharma",
+          "Gender": "Male",
+          "Age": "35"
+        }
+      ]
+    },
+    "ClassRoom2": {
+      "Student1": [
+        { 
+          "Name": "Sunita Kumari",
+          "Gender": "Female",
+          "Age": "28"
+        }
+      ],
+      "Student2": [
+        { 
+          "Name": "Swati Naidu",
+          "Gender": "Female",
+          "Age": "30"
+        }
+      ],
+      "Student3": [
+        { 
+          "Name": "Neha Sharma",
+          "Gender": "Female",
+          "Age": "25"
+        }
+      ],
+      "Student4": [
+        { 
+          "Name": "Adaa sharma",
+          "Gender": "Female",
+          "Age": "35"
+        }
+      ]
+    }
+  }
+];
