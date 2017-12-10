@@ -1,0 +1,54 @@
+{
+  "ClassRoom1": [
+      { 
+        "Name": "ArpitA",
+        "FullName": "Arpit Awasthi",
+        "Gender": "Male",
+        "Address": "Ambernath"
+      },
+      { 
+        "Name": "NeerajK",
+        "FullName": "Neeraj Kumar",
+        "Gender": "Male",
+        "Address": "Chandigarh"
+      },
+      { 
+        "Name": "SwatiP",
+        "FullName": "Swati Panday",
+        "Gender": "Female",
+        "Address": "NCR"
+      },
+      { 
+        "Name": "NeerajS",
+        "FullName": "Neeraj Sharma",
+        "Gender": "Male",
+        "Address": "Panjab"
+      }
+  ],
+  "ClassRoom2": [
+      { 
+        "Name": "SunitaK",
+        "FullName": "Sunita Kumari",
+        "Gender": "Female",
+        "Address": "Bina"
+      },
+      { 
+        "Name": "AnkitM",
+        "FullName": "Ankit Mishra",
+        "Gender": "Male",
+        "Address": "Jhansi"
+      },
+      { 
+        "Name": "NehaS",
+        "FullName": "Neha Sharma",
+        "Gender": "Female",
+        "Address": "Jhansi"
+      },
+      { 
+        "Name": "AdaaS",
+        "FullName": "Adaa sharma",
+        "Gender": "Female",
+        "Address": "Tamil"
+      }
+  ]
+}

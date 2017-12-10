@@ -1,0 +1,27 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel panel-default mrg_top_10 text-center">
+  <div class="panel-heading">
+    <h4> List of "{{ studentClass }}" student </h4>
+  </div>  
+  <div class="row panel-body">
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th class="text-center">Full Name</th>
+            <th class="text-center">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of classData">
+            <td><a [routerLink]="['detail', student.Name]">{{ student.FullName }}</a></td>
+            <td><a [routerLink]="['edit', student.Name]">Edit</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <router-outlet> </router-outlet>
+</div>

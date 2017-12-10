@@ -1,0 +1,44 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel panel-default mrg_top_10 text-center">
+  <div class="panel-heading">
+    <h4> Edit </h4>
+  </div>  
+  <div class="row panel-body">
+    <form (ngSubmit)="edit(studentForm)" #studentForm="ngForm" name="studentForm">
+      <table class="table mrg_btm_0">
+        <tbody>
+          <tr *ngIf="isShowUpdateSuccessFully || isShowErroMsg">
+            <td colspan="2">
+              <div class="alert alert-success" *ngIf="isShowUpdateSuccessFully">
+                <strong>Success!</strong> Update SuccessFully.
+              </div>
+              <div class="alert alert-danger fade in" *ngIf="isShowErroMsg">
+                <strong>Error!</strong> Please fill all Field
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="name">Full Name:</label></th>
+            <td><input class="form-control" [(ngModel)]="studentRecord.FullName" name="FullName" required #FullName="ngModel"></td>
+          </tr>
+          <tr>
+            <th> <label for="name">Gender</label></th>
+            <td>
+              <select [(ngModel)]="studentRecord.Gender" name="Gender" required >
+                <option value="Male">Male</option>
+                <option value="Female">FeMale</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="name">Address:</label></th>
+            <td><input class="form-control" [(ngModel)]="studentRecord.Address" name="Address" required></td>
+          </tr>
+          <tr>
+            <td><a class="btn btn-warning" type="button" (click)="cancel()">Cancel</a></td>
+            <td><button type="submit" class="btn btn-primary" >Update</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+</div>

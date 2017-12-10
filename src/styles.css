@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.hover_effect {
+	cursor: pointer;
+}
+
+.mrg_top_10 {
+	margin-top: 10px;
+}

@@ -1,0 +1,45 @@
+·         Create and page with 2 ClassRooms listing in angular 2 and bootstrap grid
+·         When user click on any of ClassRoom name its respective student will list.
+		o   For above Create and page with student listing in angular 2 and bootstrap grid.
+·         When user clicks on any student name it should show student details like Name, Full Name, address, and class he belongs to.
+·         Use angular routing to navigate from Classroom to student list and then to student detail page.
+·         Try edit and save if possible.
+·         Note:
+·         Use JSON Object to store ClassRooms and its Respective students list and their details to show on details page.
+
+Example
+
+[{
+
+ClassRoom1 {
+
+[{
+
+Student1{detsils}
+
+Student2{detsils}
+
+.
+
+.
+
+}]
+}
+
+ClassRoom2{
+
+[{
+
+Student1{detsils}
+
+Student2{detsils}
+
+.
+
+.
+
+}]
+
+}
+
+}]
